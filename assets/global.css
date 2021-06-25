@@ -6,6 +6,7 @@
     text-decoration: none;
 }
 
+/* variables */
 html {
     --black: #0D114F;
     --white: #FAFAFA;
@@ -42,6 +43,7 @@ textarea {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* container area */
 .content {
     width: 100%;
     margin: 0 auto;
@@ -56,18 +58,12 @@ textarea {
     width: 16.7rem;
 }
 
+/* inputs and buttons */
 input,
 button,
 .btn {
     border-radius: .8rem;
     height: 5rem;
-}
-
-button.outlined,
-.btn.outlined {
-    background: var(--white);
-    color: var(--blue);
-    border: .2rem solid var(--blue);
 }
 
 button,
@@ -95,11 +91,11 @@ button>img,
     width: 2rem;
 }
 
-input,
-button,
-.btn {
-    width: 100%;
-    margin-bottom: 1.8rem;
+button.outlined,
+.btn.outlined {
+    background: var(--white);
+    color: var(--blue);
+    border: .2rem solid var(--blue);
 }
 
 /* visível apenas para leitores de tela */
