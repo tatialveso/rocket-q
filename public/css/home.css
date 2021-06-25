@@ -14,7 +14,7 @@ header {
 /* images */
 #bg {
     grid-area: left;
-    background: url('./img/bg-home.svg') no-repeat top/contain;
+    background: url('/img/bg-home.svg') no-repeat top/contain;
     background-position-x: -7rem;
 }
 
